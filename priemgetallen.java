@@ -24,8 +24,8 @@ class Priemgetallen{
        System.out.println("Priemgetallen van 1 tot en met 1000 zijn: \n" + priemgetallen);
      
 
-  
-} // sluit main
+	} // sluit main
+
 	static boolean priem (int year){	
 				
 				if (counter ==2){
@@ -33,7 +33,8 @@ class Priemgetallen{
 				} else {
 					return false;
 				} // sluit if else
-} //sluit class
+	} // sluit boolean
+	} //sluit class
 
 
 // als een getal alleen maar 2 keer deelbaar is door alle getallen die even groot zijn tot aan 0,
